@@ -12,7 +12,11 @@ class CoffeeTest : TestCase() {
         1.0,
         3,
         "Very good",
+<<<<<<< HEAD
         "rocket_coffee")
+=======
+         1)
+>>>>>>> b63ef2831f07c1424957b6558c2c8bfc428442d6
 
     fun testAddReview() {
         val firstReview = Review(5, 5, 2, "First Review")

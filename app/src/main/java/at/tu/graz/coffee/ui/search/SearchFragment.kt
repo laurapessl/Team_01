@@ -18,8 +18,6 @@ import android.view.View.OnClickListener
 import android.widget.*
 import at.tu.graz.coffee.model.Coffee
 import at.tu.graz.coffee.model.CoffeeType
-import at.tu.graz.coffee.ui.Functions.CoffeeData
-import at.tu.graz.coffee.ui.Functions.CustomerAdapter
 
 public class SearchFragment : Fragment() {
 
@@ -41,8 +39,8 @@ public class SearchFragment : Fragment() {
         var button : Button = rootView.findViewById<Button>(R.id.button_search)
         button.setOnClickListener{
             Toast.makeText(view?.context, user_input.text, Toast.LENGTH_LONG).show()
-            val listView: ListView = rootView.findViewById<ListView>(R.id.home_listview)
-            listView.adapter = CustomerAdapter(requireContext(), CoffeeData.coffeeList)
+            /*val listView: ListView = rootView.findViewById<ListView>(R.id.home_listview)
+            listView.adapter = CustomerAdapter(requireContext(), CoffeeData.coffeeList)*/
         }
 
 

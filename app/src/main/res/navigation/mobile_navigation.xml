@@ -9,16 +9,14 @@
         android:id="@+id/nav_home"
         android:name="at.tu.graz.coffee.ui.home.HomeFragment"
         android:label="Smart Coffee"
-<<<<<<< HEAD
         tools:layout="@layout/fragment_home" >
 
         <action
             android:id="@+id/action_open_details"
             app:destination="@id/nav_details" />
     </fragment>
-=======
+    <fragment
         tools:layout="@layout/fragment_home" />
->>>>>>> b63ef28 (COFFEE-015-Search-Bar start with issue 15, added design elments [PM, PL])
 
     <fragment
         android:id="@+id/nav_addCoffee"
