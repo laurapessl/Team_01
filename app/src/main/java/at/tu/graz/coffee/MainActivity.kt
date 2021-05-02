@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home, R.id.nav_addCoffee, R.id.nav_search, R.id.nav_support), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
