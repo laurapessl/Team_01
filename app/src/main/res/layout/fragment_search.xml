@@ -10,6 +10,41 @@
         android:id="@+id/text_search"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:text="Search for Coffee:"
         />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="143dp"
+        android:layout_height="17dp"
+        android:text=""
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

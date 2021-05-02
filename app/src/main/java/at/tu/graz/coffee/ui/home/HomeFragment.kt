@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import at.tu.graz.coffee.model.Coffee
 import at.tu.graz.coffee.R
 import at.tu.graz.coffee.model.CoffeeData
-
+import java.lang.NullPointerException
 
 class HomeFragment : Fragment() {
 
@@ -29,8 +29,10 @@ class HomeFragment : Fragment() {
 
         coffeeList = CoffeeData.getCoffees().toMutableList()
 
+
         val listView:ListView = root.findViewById(R.id.home_listview)
         listView.adapter = HomeAdapter(requireContext(), coffeeList)
         return root
     }
 }
+
